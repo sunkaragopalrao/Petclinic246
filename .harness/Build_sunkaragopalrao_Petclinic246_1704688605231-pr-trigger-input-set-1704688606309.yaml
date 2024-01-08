@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sunkaragopalrao_Petclinic246_1704688605231-pr-trigger-input-set
+  identifier: Build_sunkaragopalrao_Petclinic246_1704688605231prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sunkaragopalrao_Petclinic246_1704688605231
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
