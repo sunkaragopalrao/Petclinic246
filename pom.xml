@@ -553,4 +553,24 @@
         </repository>
     </repositories>
 
+         <distributionManagement>
+  <repository>
+    <id>maven-releases</id>
+    <!-- CHANGE HERE by your team Nexus server -->
+    <url>http://65.2.151.244:8081/repository/maven-releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>maven-snapshots</id>
+    <!-- CHANGE HERE by your team Nexus server -->
+    <url>http://65.2.151.244:8081/repository/maven-releases/</url>
+  </snapshotRepository>
+</distributionManagement>
+
+
+
+         <repository>
+  <id>maven-releases</id>
+  <name>maven-releases</name>
+  <url>http://65.2.151.244:8081/repository/maven-releases/</url>
+</repository>
 </project>
